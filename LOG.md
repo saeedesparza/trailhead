@@ -25,3 +25,12 @@ What I planned and what changed. Newest at the bottom. Task IDs match `PLAN.md`.
 - **Not verified yet:** the SQL migration. There's no Postgres or Supabase CLI on this machine, so it first runs for real in M2.1, and M2.5 tests the RLS policies as a second user.
 
 **Next:** M0.6 (push + confirm Pages), then M1.1 IndexedDB store.
+
+## 2026-11-15 · M0.6: Pushed and deployed
+
+- Created the public repo `saeedesparza/trailhead`, turned on Pages (source: GitHub Actions), pushed.
+- The first push was rejected: my `gh` token didn't have the `workflow` scope, which GitHub requires to push `.github/workflows/`. Fixed it with `gh auth refresh -s workflow`.
+- **Verified:** Deploy run 43766872291 passed (build ran tests + typecheck; deploy succeeded). https://saeedesparza.github.io/trailhead/ returns 200 and serves the built assets. Portfolio card 05 links (repo, plan, log) all return 200.
+- **Later:** GitHub warns that `actions/checkout@v4`, `setup-node@v4`, and `upload-artifact@v4` target the deprecated Node 20. They still run, but bump them when newer majors are out.
+
+**M0 done.** Next: M1.1 IndexedDB store.

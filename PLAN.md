@@ -52,7 +52,7 @@ Checkpoints are the Week 6–9 portfolio submissions.
 - [x] **M0.3** Port the Artifact 2 data validation + Epley 1RM into `src/core/` with tests
 - [x] **M0.4** Draft Postgres schema + RLS policies
 - [x] **M0.5** GitHub Actions deploy to Pages
-- [ ] **M0.6** Push the repo and confirm the Pages URL loads
+- [x] **M0.6** Push the repo and confirm the Pages URL loads
 
 ### M1 · Local-first app. Due Sun Nov 22 (Week 7 checkpoint)
 - [ ] **M1.1** IndexedDB store (`src/store/`): workouts table + outbox table, with tests using `fake-indexeddb`
