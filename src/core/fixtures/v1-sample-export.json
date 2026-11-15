@@ -1,0 +1,423 @@
+{
+  "version": 1,
+  "unit": "lb",
+  "workouts": [
+    {
+      "id": "sample0",
+      "date": "2026-10-06T00:30:00.000Z",
+      "finished": true,
+      "notes": "",
+      "exercises": [
+        {
+          "name": "Bench Press",
+          "sets": [
+            {
+              "w": 155,
+              "r": 5
+            },
+            {
+              "w": 155,
+              "r": 5
+            },
+            {
+              "w": 155,
+              "r": 5
+            }
+          ]
+        },
+        {
+          "name": "Squat",
+          "sets": [
+            {
+              "w": 205,
+              "r": 5
+            },
+            {
+              "w": 205,
+              "r": 5
+            },
+            {
+              "w": 205,
+              "r": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sample1",
+      "date": "2026-10-08T00:30:00.000Z",
+      "finished": true,
+      "notes": "",
+      "exercises": [
+        {
+          "name": "Overhead Press",
+          "sets": [
+            {
+              "w": 95,
+              "r": 6
+            },
+            {
+              "w": 95,
+              "r": 6
+            },
+            {
+              "w": 95,
+              "r": 5
+            }
+          ]
+        },
+        {
+          "name": "Deadlift",
+          "sets": [
+            {
+              "w": 245,
+              "r": 5
+            },
+            {
+              "w": 245,
+              "r": 5
+            }
+          ]
+        },
+        {
+          "name": "Barbell Row",
+          "sets": [
+            {
+              "w": 125,
+              "r": 8
+            },
+            {
+              "w": 125,
+              "r": 8
+            },
+            {
+              "w": 125,
+              "r": 8
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sample2",
+      "date": "2026-10-10T00:30:00.000Z",
+      "finished": true,
+      "notes": "",
+      "exercises": [
+        {
+          "name": "Bench Press",
+          "sets": [
+            {
+              "w": 160,
+              "r": 5
+            },
+            {
+              "w": 160,
+              "r": 5
+            },
+            {
+              "w": 160,
+              "r": 4
+            }
+          ]
+        },
+        {
+          "name": "Squat",
+          "sets": [
+            {
+              "w": 210,
+              "r": 5
+            },
+            {
+              "w": 210,
+              "r": 5
+            },
+            {
+              "w": 210,
+              "r": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sample3",
+      "date": "2026-10-13T00:30:00.000Z",
+      "finished": true,
+      "notes": "",
+      "exercises": [
+        {
+          "name": "Overhead Press",
+          "sets": [
+            {
+              "w": 100,
+              "r": 5
+            },
+            {
+              "w": 100,
+              "r": 5
+            },
+            {
+              "w": 100,
+              "r": 4
+            }
+          ]
+        },
+        {
+          "name": "Deadlift",
+          "sets": [
+            {
+              "w": 255,
+              "r": 5
+            },
+            {
+              "w": 255,
+              "r": 5
+            }
+          ]
+        },
+        {
+          "name": "Barbell Row",
+          "sets": [
+            {
+              "w": 130,
+              "r": 8
+            },
+            {
+              "w": 130,
+              "r": 8
+            },
+            {
+              "w": 130,
+              "r": 7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sample4",
+      "date": "2026-10-15T00:30:00.000Z",
+      "finished": true,
+      "notes": "",
+      "exercises": [
+        {
+          "name": "Bench Press",
+          "sets": [
+            {
+              "w": 160,
+              "r": 5
+            },
+            {
+              "w": 160,
+              "r": 5
+            },
+            {
+              "w": 160,
+              "r": 5
+            }
+          ]
+        },
+        {
+          "name": "Squat",
+          "sets": [
+            {
+              "w": 215,
+              "r": 5
+            },
+            {
+              "w": 215,
+              "r": 5
+            },
+            {
+              "w": 215,
+              "r": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sample5",
+      "date": "2026-10-17T00:30:00.000Z",
+      "finished": true,
+      "notes": "",
+      "exercises": [
+        {
+          "name": "Overhead Press",
+          "sets": [
+            {
+              "w": 100,
+              "r": 5
+            },
+            {
+              "w": 100,
+              "r": 4
+            },
+            {
+              "w": 100,
+              "r": 4
+            }
+          ]
+        },
+        {
+          "name": "Barbell Row",
+          "sets": [
+            {
+              "w": 130,
+              "r": 8
+            },
+            {
+              "w": 130,
+              "r": 8
+            },
+            {
+              "w": 130,
+              "r": 8
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sample6",
+      "date": "2026-10-20T00:30:00.000Z",
+      "finished": true,
+      "notes": "Deadlift felt heavy, only slept like 5 hours.",
+      "exercises": [
+        {
+          "name": "Bench Press",
+          "sets": [
+            {
+              "w": 165,
+              "r": 5
+            },
+            {
+              "w": 165,
+              "r": 5
+            },
+            {
+              "w": 165,
+              "r": 4
+            }
+          ]
+        },
+        {
+          "name": "Squat",
+          "sets": [
+            {
+              "w": 220,
+              "r": 5
+            },
+            {
+              "w": 220,
+              "r": 5
+            },
+            {
+              "w": 220,
+              "r": 4
+            }
+          ]
+        },
+        {
+          "name": "Deadlift",
+          "sets": [
+            {
+              "w": 265,
+              "r": 3
+            },
+            {
+              "w": 265,
+              "r": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sample7",
+      "date": "2026-10-22T00:30:00.000Z",
+      "finished": true,
+      "notes": "Left shoulder a bit sore on overhead press, stopped early.",
+      "exercises": [
+        {
+          "name": "Overhead Press",
+          "sets": [
+            {
+              "w": 100,
+              "r": 5
+            },
+            {
+              "w": 100,
+              "r": 4
+            },
+            {
+              "w": 100,
+              "r": 4
+            }
+          ]
+        },
+        {
+          "name": "Barbell Row",
+          "sets": [
+            {
+              "w": 135,
+              "r": 8
+            },
+            {
+              "w": 135,
+              "r": 8
+            },
+            {
+              "w": 135,
+              "r": 8
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sample8",
+      "date": "2026-10-24T00:30:00.000Z",
+      "finished": true,
+      "notes": "",
+      "exercises": [
+        {
+          "name": "Bench Press",
+          "sets": [
+            {
+              "w": 170,
+              "r": 5
+            },
+            {
+              "w": 170,
+              "r": 4
+            },
+            {
+              "w": 170,
+              "r": 4
+            }
+          ]
+        },
+        {
+          "name": "Squat",
+          "sets": [
+            {
+              "w": 220,
+              "r": 5
+            },
+            {
+              "w": 220,
+              "r": 5
+            },
+            {
+              "w": 220,
+              "r": 5
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

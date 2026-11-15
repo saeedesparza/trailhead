@@ -1,0 +1,29 @@
+# Log
+
+What I planned and what changed. Newest at the bottom. Task IDs match `PLAN.md`.
+
+## 2026-11-15 · M0: Scaffold (Week 6 checkpoint)
+
+**Decision:** Artifact 5 is the Artifact 2 gym log + Artifact 3 coach grown into a real full-stack app: accounts, offline-first sync, coach in the app, and gym friends. Solo.
+
+**Why a new repo:** the Artifact 2 app is live and I use it, and its portfolio links should keep working. The new app imports its JSON export, so no data is lost moving over.
+
+**Built:**
+- PLAN.md (milestones M0–M4 in single-session tasks, with checkpoint dates), CLAUDE.md (session routine, layout, data-safety rules), this log, README.
+- Vite + TypeScript skeleton, Vitest.
+- `src/core/model.ts`: the Artifact 2 `validate()` ported to TypeScript, plus a v1 → v2 upgrade (adds `updatedAt` and `deleted` to each workout, for sync). `src/core/stats.ts`: Epley est. 1RM and best set.
+- `supabase/migrations/0001_init.sql`: profiles, workouts, friendships, coach_reviews, all with RLS.
+- GitHub Actions workflow that builds and deploys to Pages.
+
+**Choices made:**
+- Exercises stay as JSON inside each workout row instead of separate tables. Import stays a straight copy and sync is per-workout. The friends PR feed will need a SQL function to dig into the JSON, which is acceptable.
+- Coach moves from `claude -p` to the Claude API (Haiku) in an edge function, since other users can't run my CLI. This costs real money, so it's capped at 1 review/user/week plus a console spend limit.
+
+**Verification:** see the end of this entry once tests and build are run.
+
+**Verification (M0):**
+- `npm test`: 11/11 pass (v1 → v2 upgrade, bad-data rejection, the Artifact 3 sample export importing cleanly, Epley/best-set).
+- `npm run build`: typecheck + build pass. `vite preview` serves the page with asset paths under `/trailhead/`.
+- **Not verified yet:** the SQL migration. There's no Postgres or Supabase CLI on this machine, so it first runs for real in M2.1, and M2.5 tests the RLS policies as a second user.
+
+**Next:** M0.6 (push + confirm Pages), then M1.1 IndexedDB store.
