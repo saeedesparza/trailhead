@@ -19,8 +19,6 @@ What I planned and what changed. Newest at the bottom. Task IDs match `PLAN.md`.
 - Exercises stay as JSON inside each workout row instead of separate tables. Import stays a straight copy and sync is per-workout. The friends PR feed will need a SQL function to dig into the JSON, which is acceptable.
 - Coach moves from `claude -p` to the Claude API (Haiku) in an edge function, since other users can't run my CLI. This costs real money, so it's capped at 1 review/user/week plus a console spend limit.
 
-**Verification:** see the end of this entry once tests and build are run.
-
 **Verification (M0):**
 - `npm test`: 11/11 pass (v1 → v2 upgrade, bad-data rejection, the Artifact 3 sample export importing cleanly, Epley/best-set).
 - `npm run build`: typecheck + build pass. `vite preview` serves the page with asset paths under `/trailhead/`.
